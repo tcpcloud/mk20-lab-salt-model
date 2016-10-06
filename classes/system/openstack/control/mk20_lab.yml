@@ -67,7 +67,7 @@ parameters:
   nova:
     controller:
       networking: contrail
-      cpu_allocation: 54
+      cpu_allocation_ratio: 6.0
       bind:
         private_address: ${_param:cluster_local_address}
         public_address: ${_param:cluster_vip_address}
